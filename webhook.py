@@ -8,4 +8,4 @@ data = {
 }
 
 r = requests.get(url)
-print(r.json())
+print(r.json(),r.status_code)
