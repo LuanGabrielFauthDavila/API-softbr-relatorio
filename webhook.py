@@ -2,7 +2,7 @@ import requests
 import json
 
 
-url = 'http://127.0.0.1:8000/?key=123456'
+url = 'https://api-softbr-relatorios.herokuapp.com/?key=123456'
 data = {
   'key': "123456",
 }
